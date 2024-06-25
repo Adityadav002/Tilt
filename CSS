@@ -1,0 +1,119 @@
+margin: 0;
+
+padding: 0;
+
+font-family: "Poppins", sans-serif;
+
+body {
+
+}
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+min-height: 100vh:
+
+background: #161623;
+
+flex-wrap: wrap;
+
+img { height: 150px;
+
+a
+
+} .container.card.contentbox {
+
+width: 150px;
+
+border-radius: 50%;
+
+pointer-events: none;
+
+position: relative;
+
+top: -20px;
+
+left: 5px;
+
+border: 5px solid #595858;
+
+transition: 0.5s;
+
+container.card:hover img (
+
+transform: translateY(-30px);
+
+color: #fff;
+
+container.card
+
+position: relative;
+
+width: 300px;
+
+height: 400px;
+
+margin: 10x0px;
+
+box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+
+border-radius: 15px;
+
+background: rgba(255, 255, 255, 0.1);
+
+overflow: hidden;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+border-top: 1px solid rgba(255, 255, 255, 0.5);
+
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+
+backdrop-filter: blur(5px);
+
+cursor: pointer;
+
+text-align: center;
+
+color: #a9a8a8;
+
+transition: 0.5s;
+
+.container card:hover.contentbox ( }
+
+transform: translateY(-30px);
+
+container.card.social (
+
+position: absolute,
+
+bottom: 40px;
+
+display: flex;
+
+}
+
+container.card.social li (
+
+list-style: none;
+
+margin: 0 10px;
+
+font-size: 20px;
+
+transition: 0.5s;
+
+transform: translateY(40px); opacity: 0;
+
+transition-delay: calc(0.1s* var(-i));
+
+.container.card:hover .social li { transform: translateY(0px);
+
+opacity: 1;
